@@ -1,0 +1,1 @@
+ls -tp --ignore=. --ignore=.. | tr '\n' ',' | sed 's/,$/\n/'
