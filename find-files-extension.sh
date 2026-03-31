@@ -1,1 +1,1 @@
-find . -iregex '.*\.\(txt\)' | cut -d "/" -f 2 | cut -d "." -f 1
+find . -iregex '.*\.\(txt\)' -printf "%f\n" | cut -d "." -f 1
