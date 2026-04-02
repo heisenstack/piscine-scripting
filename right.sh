@@ -1,1 +1,2 @@
+#!/bin/bash
 ls | grep -v "\.txt$" | grep -v "filtered_files.txt" > filtered_files.txt
