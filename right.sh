@@ -1,1 +1,1 @@
-ls | grep -v "\.txt$" > filtered_files.txt
+ls | grep -v "\.txt$" | grep -v "filtered_files.txt" > filtered_files.txt
