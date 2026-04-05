@@ -20,7 +20,7 @@ chmod 400 "$DIR/guarda"
 chmod 642 "$DIR/come"
 chmod 421 "$DIR/diverto"
 chmod 777 "$DIR/mamma"
-chmod 352 "$DIR/mi"
+chmod 452 "$DIR/mi"
 
 touch -t 200101010001 "$DIR/ciao"
 touch -t 200201020001 "$DIR/mamma"
