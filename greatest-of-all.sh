@@ -20,4 +20,4 @@ for i in $(seq 1 10); do
     fi
 done
 
-echo "The largest number is $largest"
+echo "The largest number is: $largest"
