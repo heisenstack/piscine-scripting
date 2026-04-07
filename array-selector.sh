@@ -12,4 +12,5 @@ if [[ "$1" -lt 1 ]] || [[ "$1" -gt ${#array[@]} ]]; then
     exit 1
 fi
 
+
 echo ${array[$1 - 1]}
