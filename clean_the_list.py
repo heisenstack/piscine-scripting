@@ -1,6 +1,8 @@
 def clean_list(lst):
     if len(lst) == 0:
         return []
+    for item in lst:
+        item = item.strip()
     if 'milk' not in lst:
         lst.append('milk')
     result = []
